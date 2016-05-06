@@ -92,7 +92,7 @@ public class World {
     public void nextLevel() {
         sprites.clear();
         background = BitmapRepo.getInstance().getImage(R.drawable.level_one_comp);
-        sprites.add(new LoadingSprite((new Vec2d(500,500)),1));
+        sprites.add(new LoadingSprite((new Vec2d(500,200)),1));
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -137,7 +137,7 @@ public class World {
     public void gameOver() {
         sprites.clear();
         background = BitmapRepo.getInstance().getImage(R.drawable.level_two_comp);
-        sprites.add(new LoadingSprite((new Vec2d(500,500)),1));
+        sprites.add(new LoadingSprite((new Vec2d(500,250)),2));
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
