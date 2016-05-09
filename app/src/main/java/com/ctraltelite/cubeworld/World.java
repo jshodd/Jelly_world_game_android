@@ -129,7 +129,7 @@ public class World {
 
 
             }
-        },5000);
+        },2500);
 
 
     }
@@ -163,7 +163,7 @@ public class World {
                 sprites.add(new RingSprite(new Vec2d(1000,500)));
 
             }
-        },5000);
+        },2500);
 
     }
 
